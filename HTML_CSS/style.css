@@ -1,11 +1,12 @@
 body {
-    background-color: black;
+    background-color: white;
 }
 
 h1,h2,h3,h4,h5 {
     color: white;
     text-align: center;
     text-decoration: none;
+    display: flex;
 
 }
 h1:hover{
@@ -47,3 +48,20 @@ img {
     height: 500px;
     margin-left: 150px;
 }
+
+section{
+    padding: 20px;
+    margin: 20px;
+    background-color: #1a1a1a;
+    border: 1px solid #980707;
+    border-radius: 8px;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+

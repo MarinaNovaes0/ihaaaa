@@ -9,31 +9,65 @@
 <body>
     <header>Meu site show</header>
 
+    <!-- Navigation Bar -->
     <nav>
         <ul>
             <li><a href="#">Inicío</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#galeria">Galeria</a></li>
         </ul>
     </nav>
 
-    <h1>Marina Novaes Freire</h1>
+    <!-- Section Sobre -->
+    <section id="sobre">
+        <h1>Marina Novaes Freire</h1>
 
-    <p>Olá! Prazer me chamo Marina, tenho 17 anos e moro na Ceilândia. Estudo no SESI Taguatinga e estou no 3º ano do ensino médio
-        integrado com o curso técnico de Desemvolvimeto de Sistemas, na minha sala gosto muito do Philipin Rei Delas e de tratar o ChatGPT como uma pessoa</p>
+        <p>Olá! Prazer me chamo Marina, tenho 17 anos e moro na Ceilândia. Estudo no SESI Taguatinga e estou no 3º ano do ensino médio
+            integrado com o curso técnico de Desemvolvimeto de Sistemas, na minha sala gosto muito do Philipin Rei Delas e de tratar o ChatGPT como uma pessoa</p>
 
-    <img src="eu.jpg" alt="fotinha">
-    <h4>Foto minha com alta qualidade</h4>
+        <img src="eu.jpg" alt="fotinha">
+        <h4>Foto minha com alta qualidade</h4>
 
-    <img src="lia.jpg" alt="lia">
-    <h4>Foto da cadela Lia❤️</h4>
+        <img src="lia.jpg" alt="lia">
+        <h4>Foto da cadela Lia❤️</h4>
 
-    <a href="https://youtu.be/X9P2d5lF2l4?si=4wsawYMj0xEwmhmI">História da minha vida</a>
-
-    <section>
-        <ol>
-            <li></li>
-        </ol>
+        <a href="https://youtu.be/X9P2d5lF2l4?si=4wsawYMj0xEwmhmI">História da minha vida</a>
     </section>
+
+    <!-- Section Contato -->
+     </section>
+
+    <!--Sectiion contato-->
+    <section id="contato">
+        <h1>Contato</h1>
+        <form>
+            <label>Email:</label>
+            <input type="email" class="form-contato " placeholder="exemplo@email.com" required>
+            <label>Nome Completo:</label>
+            <input type="name" class="form-contato" placeholder="Seu nome completo">
+            <label>Mensagem:</label>
+            <textarea class="form-contato" rows="5"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!--Section Galeria-->
+    <section class="galeria" id="galeria">
+        <div class="card" >Card1</div>
+        <div class="card">Card2</div>
+        <div class="card">Card3</div>
+        <div class="card">Card4</div>
+        <div class="card">Card5</div>
+    </section>
+
+    <footer>
+        Desenvolvido por Marina © 2025
+        <h4>marinalinda@gmail.com</h4>
+        <h4><a href="https://github.com/MarinaNovaes0">GitHub</a></h4>
+    </footer>
+
+
+
 </body>
 </html>
