@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+h1,h2,h3,h4,h5 {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+}
+h1:hover{
+    text-decoration: underline;
+    color: bisque;
+}
+
+h2:hover{
+    text-decoration: underline;
+    color: bisque;
+}
+
+h3:hover{
+    text-decoration: underline;
+    color: bisque;
+}
+
+h4:hover{
+    text-decoration: underline;
+    color: bisque;
+}
+
+h5:hover{
+    text-decoration: underline;
+    color: bisque;
+}
+
+p{
+    color: aqua;
+    text-decoration: none;
+}
+
+p:hover{
+    color: aquamarine;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    margin-left: 150px;
+}
